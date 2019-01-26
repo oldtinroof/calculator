@@ -1,5 +1,7 @@
 # Simple calculator example
 
+Instructions are for people with Yarn installed, replace `yarn` with `npm` if you've not installed it yet.
+
 ## To install
 
 Run `yarn install` at the command line
