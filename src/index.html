@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="calculator">
+        <div class="display">0</div>
+        <div class="branding">
+          <img src="logo.svg" alt="Equal Experts" />
+        </div>
+        <div class="buttons">
+          <button value="+" data-type="operator">+</button>
+          <button value="-" data-type="operator">-</button>
+          <button value="*" data-type="operator" disabled="disabled">x</button>
+          <button value="/" data-type="operator" disabled="disabled">&divide;</button>
+          <button value="7" data-type="digit">7</button>
+          <button value="8" data-type="digit">8</button>
+          <button value="9" data-type="digit">9</button>
+          <button value="4" data-type="digit">4</button>
+          <button value="5" data-type="digit">5</button>
+          <button value="6" data-type="digit">6</button>
+          <button value="1" data-type="digit">1</button>
+          <button value="2" data-type="digit">2</button>
+          <button value="3" data-type="digit">3</button>
+          <button value="0" data-type="digit">0</button>
+          <button value="." data-type="dot">.</button>
+          <button class="all-clear" data-type="all-clear">AC</button>
+          <button class="equals" data-type="equals">=</button>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
